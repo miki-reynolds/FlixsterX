@@ -64,7 +64,7 @@ class NowPlayingMoviesRecyclerViewAdapter(
             .load("https://image.tmdb.org/t/p/w500" + movie.poster)
             .centerInside()
 //            .override(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT)
-            .placeholder(R.drawable.loading)
+//            .placeholder(R.drawable.loading)
 //            .error(R.drawable.imagenotfound)
             .into(holder.movieImage)
 
